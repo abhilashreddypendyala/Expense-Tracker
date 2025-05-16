@@ -3,7 +3,6 @@
 
 A simple and elegant web application to track income and expenses, built using HTML, CSS, and JavaScript.
 
-
 ## Overview
 
 This Expense Tracker lets users:
@@ -14,7 +13,7 @@ This Expense Tracker lets users:
 - Filter transactions by date  
 - Enjoy a responsive UI with attractive background images
 
-###Description
+## Description
 
 Managing personal finances can be overwhelming without the right tools. The Expense Tracker App simplifies this task by providing an intuitive platform where users can effortlessly record and monitor their daily income and expenses.
 
@@ -26,4 +25,5 @@ Designed with responsiveness in mind, the app’s layout centers content vertica
 
 Background images add a polished, professional look to each page, creating a welcoming and visually appealing environment without distracting from the core functionality.
 
-Ideal for individuals looking to gain control over their finances without complexity, the Expense Tracker App is a practical, straightforward solution perfect for everyday financial management. 
+Ideal for individuals looking to gain control over their finances without complexity, the Expense Tracker App is a practical, straightforward solution perfect for everyday financial management.
+
