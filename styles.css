@@ -1,0 +1,73 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+/* Use flexbox to center content vertically and horizontally */
+body.mainpage-bg,
+body.loginpage-bg,
+body.dashboard-bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  /* Background image stuff */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+/* Background images */
+.mainpage-bg {
+  background-image: url('../images/mainpage.png');
+}
+
+.loginpage-bg {
+  background-image: url('../images/mainpage.png');
+}
+
+.dashboard-bg {
+  background-image: url('../images/f.png');
+}
+
+/* Center box style - same for all pages */
+.center-box {
+  width: 350px;
+  background: rgba(255, 255, 255, 0.85);
+  padding: 30px 25px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* vertical spacing */
+}
+
+/* For buttons and links */
+.btn, button {
+  background-color: #007bff;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px 0 0 0; /* top margin only */
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Inputs and select stacked vertically and full width */
+.center-box input[type="text"],
+.center-box input[type="password"],
+.center-box input[type="number"],
+.center-box input[type="date"],
+.center-box select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
